@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(gahag-0078741247.png);
+  background-blend-mode: lighten;
+  background-color:rgba(255,255,255,0.8);
+  background-size: contain; 
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  background-color: red;
+}
+
+.catch {
+  font-size: 2.0em;
+  color: brown;
+  font-weight: bold
+}
+
+.number {
+  font-size: 2.0em;
+  color: brown;
+  font-weight: bold
+}
+
+.header-top {
+  width: 100%;
+  height: 60px;
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_under {
+  display: flex;
+}
+
+.nav-list_header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 24px 0;
+  margin: 0 auto;
+  font-size: 2.0em;
+}
+
+
+.nav-list {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 26px 0;
+  margin: 0 auto;
+  font-size: 2.0em;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 50px;
+}
+
+.top_img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.main-visual {
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+}
+
+.main {
+  width: 100%;
+  height: 3000px;
+  background-color: green;
+}
+
+#inko {
+  width: 100%;
+  height: 300px;
+  background-color: red;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.inko_title {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.inko_box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inko_content {
+  width: 25%;
+  margin: 3rem 0;
+  margin-bottom: 6rem;
+}
+
+.inko_img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+
+#okame {
+  width: 100%;
+  height: 690px;
+  background-color: blue;
+  margin-top: 50px;
+}
+
+.okame_title {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.okame_contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.okame_white {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.okame_white_img {
+  width: 40%;
+}
+
+.okame_white_text {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.okame_black {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.okame_black_movie{
+  margin-left: 500px;
+}
+
+
+
+#kakapo {
+  width: 100%;
+  height: 500px;
+  background-color: red;
+  margin-top: 50px;
+}
+
+.kakapo_title {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.kakapo_contents {
+  width: 60vw;
+  margin: 0 auto;
+  word-break: break-all;
+}
+
+.kakapo_img {
+  float: left;
+  width: 40%;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+
+#infomation {
+  width: 100%;
+  height: 300px;
+  background-color: blue;
+  margin-top: 50px;
+}
+
+.info_title {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.text_inside {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+#access {
+  width: 100%;
+  height: 600px;
+  background-color: red;
+  margin-top: 50px;
+}
+
+.access_title {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.access_contents {
+  display: flex;
+  justify-content: space-around;
+}
+
+.access_text {
+ margin: auto;
+}
+
+.form {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  text-align: center;
+}
+
+.form_contents {
+  text-align: center;
+}
+
+
+/* #inquiry_form {
+  width: 100%;
+  height: 300px;
+  background-color: blue;
+  position: absolute;  
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+} */
+
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: blueviolet;
+  display: flex;
+}
+
+.site_logo {
+ 
+}
+
+.catch {
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 50rem;
+}
