@@ -106,9 +106,7 @@ header {
     height: auto;
     font-size: 1em;
   }
-  
 }
-
 
 .nav-list-item {
   list-style: none;
@@ -147,6 +145,12 @@ header {
   margin-right: auto;
 }
 
+@media screen and (max-width: 479px) {
+  .main {
+    width: 100%;
+  }
+}
+
 #inko {
   width: 80%;
   height: 300px;
@@ -154,6 +158,13 @@ header {
   margin-top: 50px;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 479px) {
+  .inko {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 .inko_title {
@@ -258,12 +269,10 @@ header {
 }
 
 @media screen and (max-width: 479px) {
-
   .okame_black_text {
     position: relative;
-    top: 15rem;
+    top: 18rem;
   }
-
 
   .okame_black_movie {
     position: relative;
@@ -377,15 +386,11 @@ header {
 }
 
 @media screen and (max-width: 479px) {
-
-  #access {
-    
-  }
   .access_text {
     margin: auto;
     font-size: 13px;
     position: relative;
-    top: 217px;
+    top: 270px;
   }
 }
 
@@ -419,8 +424,6 @@ header {
   }
 }
 
-
-
 input {
   width: 300px;
   text-align: center;
@@ -451,10 +454,9 @@ footer {
 
 @media screen and (max-width: 479px) {
   footer {
-    margin-top: 33%;
+    margin-top: 65%;
   }
-}rgb(40, 38, 43)
-
+}
 
 .site_logo {
 }
